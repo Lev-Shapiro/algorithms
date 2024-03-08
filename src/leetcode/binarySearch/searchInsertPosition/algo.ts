@@ -1,3 +1,5 @@
+// Leetcode problem: https://leetcode.com/problems/search-insert-position/
+
 export const searchInsert = (nums: number[], target: number): number => {
   let low = 0,
     high = nums.length - 1,
